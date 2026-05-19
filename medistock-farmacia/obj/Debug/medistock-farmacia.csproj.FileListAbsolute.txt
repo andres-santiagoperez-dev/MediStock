@@ -1,0 +1,10 @@
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\bin\Debug\medistock-farmacia.exe.config
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\bin\Debug\medistock-farmacia.exe
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\bin\Debug\medistock-farmacia.pdb
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock-farmacia.csproj.AssemblyReference.cache
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock_farmacia.frmLogin.resources
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock_farmacia.Properties.Resources.resources
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock-farmacia.csproj.GenerateResource.cache
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock-farmacia.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock-farmacia.exe
+C:\Users\ANDRES\Desktop\PROYECTO FARMACEUTICA\medistock-farmacia\medistock-farmacia\obj\Debug\medistock-farmacia.pdb
