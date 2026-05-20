@@ -1,4 +1,5 @@
 ﻿using medistock_farmacia.DataAccess;
+using medistock_farmacia.Forms.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,14 +23,17 @@ namespace medistock_farmacia
         private void button1_Click(object sender, EventArgs e)
         {
             object resultado;
-            resultado =Usuario.verificarUsuario(txtUsuario.Text, txtContrasena.Text);
+            resultado =InicioSesion.verificarUsuario(txtUsuario.Text, txtContrasena.Text);
             if (resultado == null)
             {
                 MessageBox.Show("Usuario o Contraseña Incorrecto", "Verifica Informacion");
             }
             else
             {
-                MessageBox.Show("Usuario existe");
+                frmPrincipal principal = new frmPrincipal();
+                this.Hide();
+                principal.Show();
+
             }
         }
     }

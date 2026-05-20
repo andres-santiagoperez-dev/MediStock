@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace medistock_farmacia.DataAccess
 {
-    internal class Usuario
+    internal class InicioSesion
     {
 
         public static object verificarUsuario(string usuario, string contrasena)
