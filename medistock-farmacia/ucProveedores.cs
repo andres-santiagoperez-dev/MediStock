@@ -12,6 +12,11 @@ namespace medistock_farmacia
 {
     public partial class ucProveedores : UserControl
     {
+        public DataTable DataSource
+        {
+            get => dgvInventario.DataSource as DataTable;
+            set => dgvInventario.DataSource = value;
+        }
         public ucProveedores()
         {
             InitializeComponent();

@@ -27,6 +27,8 @@ namespace medistock_farmacia.Forms.Dashboard
             pnlUserControls.Controls.Clear();
             ucInventario inventario = new ucInventario();
             inventario.Dock = DockStyle.Fill;
+            DataTable dt = Inventario.obtenerInventario();
+            inventario.DataSource = dt;
             pnlUserControls.Controls.Add(inventario);
 
         }
@@ -39,6 +41,8 @@ namespace medistock_farmacia.Forms.Dashboard
             pnlUserControls.Controls.Clear();
             ucCategorias categorias = new ucCategorias();
             categorias.Dock = DockStyle.Fill;
+            DataTable dt = Categorias.obtenerCategorias();
+            categorias.DataSource = dt;
             pnlUserControls.Controls.Add(categorias);
         }
 
@@ -50,6 +54,8 @@ namespace medistock_farmacia.Forms.Dashboard
             pnlUserControls.Controls.Clear();
             ucProveedores proveedores = new ucProveedores();
             proveedores.Dock = DockStyle.Fill;
+            DataTable dt = Proveedores.obtenerProveedores();
+            proveedores.DataSource = dt;
             pnlUserControls.Controls.Add(proveedores);
         }
 
@@ -61,6 +67,8 @@ namespace medistock_farmacia.Forms.Dashboard
             pnlUserControls.Controls.Clear();
             ucClientes clientes = new ucClientes();
             clientes.Dock = DockStyle.Fill;
+            DataTable dt = Clientes.obtenerClientes();
+            clientes.DataSource = dt;
             pnlUserControls.Controls.Add(clientes);
         }
     }

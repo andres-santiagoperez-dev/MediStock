@@ -46,9 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\Categorias.cs" />
+    <Compile Include="DataAccess\Clientes.cs" />
     <Compile Include="DataAccess\Conexion.cs" />
     <Compile Include="DataAccess\InicioSesion.cs" />
     <Compile Include="DataAccess\Inventario.cs" />
+    <Compile Include="DataAccess\Proveedores.cs" />
     <Compile Include="Forms\Auth\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
