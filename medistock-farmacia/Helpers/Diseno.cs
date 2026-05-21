@@ -9,10 +9,12 @@ namespace medistock_farmacia.Helpers
 {
     internal class Diseno
     {
-        public static void ocultarLabels(Label lblInventario,Label lblCategoria)
+        public static void ocultarLabels(Label lblInventario,Label lblCategoria, Label lblProveedores, Label lblClientes)
         {
             lblCategoria.Visible=false;
             lblInventario.Visible=false;
+            lblClientes.Visible = false;
+            lblProveedores.Visible = false;
         }
     }
 }

@@ -70,11 +70,23 @@
     <Compile Include="ucCategorias.Designer.cs">
       <DependentUpon>ucCategorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucClientes.Designer.cs">
+      <DependentUpon>ucClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucInventario.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucInventario.Designer.cs">
       <DependentUpon>ucInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucProveedores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucProveedores.Designer.cs">
+      <DependentUpon>ucProveedores.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\Auth\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -90,8 +102,14 @@
     <EmbeddedResource Include="ucCategorias.resx">
       <DependentUpon>ucCategorias.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucClientes.resx">
+      <DependentUpon>ucClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucInventario.resx">
       <DependentUpon>ucInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProveedores.resx">
+      <DependentUpon>ucProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

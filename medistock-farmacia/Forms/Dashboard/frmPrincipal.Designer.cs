@@ -42,6 +42,8 @@
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblInventario = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblProveedores = new System.Windows.Forms.Label();
+            this.lblClientes = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
@@ -114,6 +116,7 @@
             this.btnProveedores.TabIndex = 6;
             this.btnProveedores.Text = "         Proveedores";
             this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnCategorias
             // 
@@ -171,6 +174,7 @@
             this.btnClientes.Text = "                  Clientes";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnPuntoVenta
             // 
@@ -195,6 +199,8 @@
             this.pnlContenedor.BackColor = System.Drawing.Color.Transparent;
             this.pnlContenedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlContenedor.BackgroundImage")));
             this.pnlContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlContenedor.Controls.Add(this.lblClientes);
+            this.pnlContenedor.Controls.Add(this.lblProveedores);
             this.pnlContenedor.Controls.Add(this.pnlUserControls);
             this.pnlContenedor.Controls.Add(this.lblCategoria);
             this.pnlContenedor.Controls.Add(this.lblInventario);
@@ -241,6 +247,28 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(992, 47);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
+            // lblProveedores
+            // 
+            this.lblProveedores.AutoSize = true;
+            this.lblProveedores.Font = new System.Drawing.Font("Rockwell", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProveedores.Location = new System.Drawing.Point(25, 19);
+            this.lblProveedores.Name = "lblProveedores";
+            this.lblProveedores.Size = new System.Drawing.Size(178, 33);
+            this.lblProveedores.TabIndex = 5;
+            this.lblProveedores.Text = "Proveedores";
+            this.lblProveedores.Visible = false;
+            // 
+            // lblClientes
+            // 
+            this.lblClientes.AutoSize = true;
+            this.lblClientes.Font = new System.Drawing.Font("Rockwell", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClientes.Location = new System.Drawing.Point(25, 19);
+            this.lblClientes.Name = "lblClientes";
+            this.lblClientes.Size = new System.Drawing.Size(127, 33);
+            this.lblClientes.TabIndex = 4;
+            this.lblClientes.Text = "Clientes";
+            this.lblClientes.Visible = false;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,5 +300,7 @@
         private System.Windows.Forms.Label lblInventario;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Panel pnlUserControls;
+        private System.Windows.Forms.Label lblProveedores;
+        private System.Windows.Forms.Label lblClientes;
     }
 }
