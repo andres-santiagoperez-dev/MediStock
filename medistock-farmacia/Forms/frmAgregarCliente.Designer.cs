@@ -198,6 +198,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumeroDocumento);
             this.Name = "frmAgregarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
             this.ResumeLayout(false);
             this.PerformLayout();
