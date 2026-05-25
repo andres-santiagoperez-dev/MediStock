@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\helpers\\diseno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\helpers\\diseno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\auth\\frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\auth\\frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\dashboard\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\dashboard\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\auth\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\auth\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\ucproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\auth\\frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\auth\\frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\ucclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\ucclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\dashboard\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\dashboard\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\uccategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\uccategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\ucinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\ucinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|c:\\users\\andres\\desktop\\proyecto farmaceutica\\medistock-farmacia\\medistock-farmacia\\forms\\auth\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534F5BEF-C1A1-49FA-9302-B952AFA0EA69}|medistock-farmacia\\medistock-farmacia.csproj|solutionrelative:medistock-farmacia\\forms\\auth\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,88 +74,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Diseno.cs",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Helpers\\Diseno.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\Helpers\\Diseno.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Helpers\\Diseno.cs",
-              "RelativeToolTip": "medistock-farmacia\\Helpers\\Diseno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmAgregarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs",
+              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs*",
+              "RelativeToolTip": "medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwB0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:29:18.436Z",
+              "WhenOpened": "2026-05-25T00:51:33.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ucClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucClientes.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\ucClientes.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "medistock-farmacia\\ucClientes.cs [Dise\u00F1o]",
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmLogin.cs",
+              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Auth\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmLogin.cs*",
+              "RelativeToolTip": "medistock-farmacia\\Forms\\Auth\\frmLogin.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:25:51.004Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ucProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucProveedores.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\ucProveedores.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "medistock-farmacia\\ucProveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:21:59.793Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "RelativeToolTip": "medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA0wDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:23:27.382Z",
+              "WhenOpened": "2026-05-25T00:47:48.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "medistock-farmacia\\Forms\\Dashboard\\frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmLogin.cs",
+              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Auth\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmLogin.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "medistock-farmacia\\Forms\\Auth\\frmLogin.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:23:17.927Z",
+              "WhenOpened": "2026-05-25T00:42:58.375Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ucInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucInventario.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\ucInventario.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "medistock-farmacia\\ucInventario.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "frmAgregarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs",
+              "RelativeDocumentMoniker": "medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "medistock-farmacia\\Forms\\Auth\\frmAgregarUsuario.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:21:35.116Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ucCategorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucCategorias.cs",
-              "RelativeDocumentMoniker": "medistock-farmacia\\ucCategorias.cs",
-              "ToolTip": "C:\\Users\\ANDRES\\Desktop\\PROYECTO FARMACEUTICA\\medistock-farmacia\\medistock-farmacia\\ucCategorias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "medistock-farmacia\\ucCategorias.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:21:34.727Z",
+              "WhenOpened": "2026-05-23T15:14:39.357Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

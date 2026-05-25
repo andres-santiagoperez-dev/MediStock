@@ -36,5 +36,12 @@ namespace medistock_farmacia
 
             }
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            frmAgregarUsuario form = new frmAgregarUsuario();
+            form.Show();
+        }
     }
 }

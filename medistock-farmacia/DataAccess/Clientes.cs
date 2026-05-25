@@ -28,5 +28,21 @@ namespace medistock_farmacia.DataAccess
                 return dt;
             }
         }
+        public static bool agregarCliente()
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.obtenerConexion();
+
+
+                MessageBox.Show("Cliente Agregado con exito","Felicidades");
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("ERROR",e.Message);
+                return false;
+            }
+        }
     }
 }
