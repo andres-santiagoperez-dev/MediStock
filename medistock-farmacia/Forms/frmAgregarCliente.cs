@@ -8,18 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace medistock_farmacia
+namespace medistock_farmacia.Forms
 {
-    public partial class ucClientes : UserControl
+    public partial class frmAgregarCliente : Form
     {
-        public DataTable DataSource
-        {
-            get => dgvInventario.DataSource as DataTable;
-            set => dgvInventario.DataSource = value;
-        }
-        public ucClientes()
+        public frmAgregarCliente()
         {
             InitializeComponent();
         }
+
     }
 }

@@ -64,12 +64,13 @@
             // 
             // btnNuevoProducto
             // 
-            this.btnNuevoProducto.Location = new System.Drawing.Point(341, 25);
+            this.btnNuevoProducto.Location = new System.Drawing.Point(341, 24);
             this.btnNuevoProducto.Name = "btnNuevoProducto";
             this.btnNuevoProducto.Size = new System.Drawing.Size(110, 23);
             this.btnNuevoProducto.TabIndex = 20;
             this.btnNuevoProducto.Text = "Nuevo Cliente";
             this.btnNuevoProducto.UseVisualStyleBackColor = true;
+            this.btnNuevoProducto.Click += new System.EventHandler(this.btnNuevoProducto_Click);
             // 
             // label1
             // 

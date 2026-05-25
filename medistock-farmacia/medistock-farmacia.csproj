@@ -70,31 +70,37 @@
     <Compile Include="Forms\Dashboard\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmAgregarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAgregarCliente.Designer.cs">
+      <DependentUpon>frmAgregarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\Diseno.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ucCategorias.cs">
+    <Compile Include="User Controls\ucCategorias.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucCategorias.Designer.cs">
+    <Compile Include="User Controls\ucCategorias.Designer.cs">
       <DependentUpon>ucCategorias.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucClientes.cs">
+    <Compile Include="User Controls\ucClientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucClientes.Designer.cs">
+    <Compile Include="User Controls\ucClientes.Designer.cs">
       <DependentUpon>ucClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucInventario.cs">
+    <Compile Include="User Controls\ucInventario.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucInventario.Designer.cs">
+    <Compile Include="User Controls\ucInventario.Designer.cs">
       <DependentUpon>ucInventario.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucProveedores.cs">
+    <Compile Include="User Controls\ucProveedores.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucProveedores.Designer.cs">
+    <Compile Include="User Controls\ucProveedores.Designer.cs">
       <DependentUpon>ucProveedores.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\Auth\frmLogin.resx">
@@ -106,21 +112,24 @@
     <EmbeddedResource Include="Forms\Dashboard\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAgregarCliente.resx">
+      <DependentUpon>frmAgregarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucCategorias.resx">
+    <EmbeddedResource Include="User Controls\ucCategorias.resx">
       <DependentUpon>ucCategorias.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucClientes.resx">
+    <EmbeddedResource Include="User Controls\ucClientes.resx">
       <DependentUpon>ucClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucInventario.resx">
+    <EmbeddedResource Include="User Controls\ucInventario.resx">
       <DependentUpon>ucInventario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucProveedores.resx">
+    <EmbeddedResource Include="User Controls\ucProveedores.resx">
       <DependentUpon>ucProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
