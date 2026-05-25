@@ -11,21 +11,19 @@ using System.Windows.Forms;
 
 namespace medistock_farmacia.Forms
 {
-    public partial class frmAgregarCliente : Form
+    public partial class frmAgregarCategoria : Form
     {
-        public frmAgregarCliente()
+        public frmAgregarCategoria()
         {
             InitializeComponent();
-
         }
 
-        private void btnRegistrarse_Click(object sender, EventArgs e)
+        private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            if (txtEmail.Text != "" && txtNombreCompleto.Text != "" && txtNumeroDocumento.Text != "" && txtTelefono.Text != "" && cbxTipoDocumento.Text != "" && cbxAcuerdo.Checked == true)
+            if (txtNombre.Text != "")
             {
-                Clientes.agregarCliente(cbxTipoDocumento.Text, txtNumeroDocumento.Text, txtNombreCompleto.Text, txtTelefono.Text, txtEmail.Text);
+                Categorias.agregarCategoria(txtNombre.Text, txtDescripcion.Text);
                 this.Close();
-
             }
             else
             {

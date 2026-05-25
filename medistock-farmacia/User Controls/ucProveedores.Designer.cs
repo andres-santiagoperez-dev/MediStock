@@ -33,8 +33,8 @@
             this.btnEditarProducto = new System.Windows.Forms.Button();
             this.btnNuevoProducto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvInventario = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
+            this.dgvProveedores = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -70,6 +70,7 @@
             this.btnNuevoProducto.TabIndex = 14;
             this.btnNuevoProducto.Text = "Nuevo Proveedor";
             this.btnNuevoProducto.UseVisualStyleBackColor = true;
+            this.btnNuevoProducto.Click += new System.EventHandler(this.btnNuevoProducto_Click);
             // 
             // label1
             // 
@@ -82,14 +83,14 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Listado de Proveedores";
             // 
-            // dgvInventario
+            // dgvProveedores
             // 
-            this.dgvInventario.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInventario.Location = new System.Drawing.Point(22, 63);
-            this.dgvInventario.Name = "dgvInventario";
-            this.dgvInventario.Size = new System.Drawing.Size(666, 210);
-            this.dgvInventario.TabIndex = 12;
+            this.dgvProveedores.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProveedores.Location = new System.Drawing.Point(22, 63);
+            this.dgvProveedores.Name = "dgvProveedores";
+            this.dgvProveedores.Size = new System.Drawing.Size(666, 210);
+            this.dgvProveedores.TabIndex = 12;
             // 
             // ucProveedores
             // 
@@ -100,10 +101,10 @@
             this.Controls.Add(this.btnEditarProducto);
             this.Controls.Add(this.btnNuevoProducto);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvInventario);
+            this.Controls.Add(this.dgvProveedores);
             this.Name = "ucProveedores";
             this.Size = new System.Drawing.Size(706, 298);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,6 +117,6 @@
         private System.Windows.Forms.Button btnEditarProducto;
         private System.Windows.Forms.Button btnNuevoProducto;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dgvInventario;
+        private System.Windows.Forms.DataGridView dgvProveedores;
     }
 }

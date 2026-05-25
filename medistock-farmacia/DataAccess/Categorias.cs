@@ -28,5 +28,26 @@ namespace medistock_farmacia.DataAccess
                 return dt;
             }
         }
+        public static bool agregarCategoria(string nombre,string descripcion)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.obtenerConexion();
+                string sql = "insert into categorias values(@nombre,@descripcion,1);";
+                SqlCommand cmd = new SqlCommand(sql,cnn);
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@descripcion",descripcion);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
+                MessageBox.Show("Categoria agregada con exito");
+                return true;
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message,"ERROR");
+                return false;
+            }
+        }
     }
 }

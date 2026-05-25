@@ -1,4 +1,6 @@
-﻿using System;
+﻿using medistock_farmacia.DataAccess;
+using medistock_farmacia.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +14,28 @@ namespace medistock_farmacia
 {
     public partial class ucCategorias : UserControl
     {
+        public void cargarCategorias()
+        {
+            dgvCategorias.DataSource = Categorias.obtenerCategorias();
+        }
         public DataTable DataSource
         {
-            get => dgvInventario.DataSource as DataTable;
-            set => dgvInventario.DataSource = value;
+            get => dgvCategorias.DataSource as DataTable;
+            set => dgvCategorias.DataSource = value;
         }
         public ucCategorias()
         {
             InitializeComponent();
+        }
+
+        private void btnNuevaCategoria_Click(object sender, EventArgs e)
+        {
+            frmAgregarCategoria frm = new frmAgregarCategoria();
+            frm.FormClosed += (s, eArgs) =>
+            {
+                cargarCategorias();
+            };
+            frm.ShowDialog();
         }
     }
 }

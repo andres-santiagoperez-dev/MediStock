@@ -36,10 +36,8 @@
             this.txtNumeroDocumento = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.cbxEstado = new System.Windows.Forms.ComboBox();
+            this.cbxAcuerdo = new System.Windows.Forms.CheckBox();
             this.cbxTipoDocumento = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -51,12 +49,13 @@
             this.btnRegistrarse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarse.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarse.Location = new System.Drawing.Point(93, 302);
+            this.btnRegistrarse.Location = new System.Drawing.Point(88, 293);
             this.btnRegistrarse.Name = "btnRegistrarse";
             this.btnRegistrarse.Size = new System.Drawing.Size(120, 43);
             this.btnRegistrarse.TabIndex = 1;
             this.btnRegistrarse.Text = "Registrar";
             this.btnRegistrarse.UseVisualStyleBackColor = false;
+            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
             // 
             // label6
             // 
@@ -127,17 +126,6 @@
             this.txtTelefono.Size = new System.Drawing.Size(100, 23);
             this.txtTelefono.TabIndex = 18;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 234);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 16);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Estado";
-            // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -146,26 +134,17 @@
             this.txtEmail.Size = new System.Drawing.Size(100, 23);
             this.txtEmail.TabIndex = 19;
             // 
-            // checkBox2
+            // cbxAcuerdo
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(25, 276);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(256, 20);
-            this.checkBox2.TabIndex = 18;
-            this.checkBox2.Text = "Seguro de que los datos estan correctos";
-            this.checkBox2.UseVisualStyleBackColor = false;
-            // 
-            // cbxEstado
-            // 
-            this.cbxEstado.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxEstado.FormattingEnabled = true;
-            this.cbxEstado.Location = new System.Drawing.Point(180, 231);
-            this.cbxEstado.Name = "cbxEstado";
-            this.cbxEstado.Size = new System.Drawing.Size(101, 24);
-            this.cbxEstado.TabIndex = 20;
+            this.cbxAcuerdo.AutoSize = true;
+            this.cbxAcuerdo.BackColor = System.Drawing.Color.Transparent;
+            this.cbxAcuerdo.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxAcuerdo.Location = new System.Drawing.Point(25, 254);
+            this.cbxAcuerdo.Name = "cbxAcuerdo";
+            this.cbxAcuerdo.Size = new System.Drawing.Size(256, 20);
+            this.cbxAcuerdo.TabIndex = 18;
+            this.cbxAcuerdo.Text = "Seguro de que los datos estan correctos";
+            this.cbxAcuerdo.UseVisualStyleBackColor = false;
             // 
             // cbxTipoDocumento
             // 
@@ -185,12 +164,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(309, 357);
             this.Controls.Add(this.cbxTipoDocumento);
-            this.Controls.Add(this.cbxEstado);
             this.Controls.Add(this.btnRegistrarse);
-            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.cbxAcuerdo);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtNombreCompleto);
@@ -215,10 +192,8 @@
         private System.Windows.Forms.TextBox txtNumeroDocumento;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.ComboBox cbxEstado;
+        private System.Windows.Forms.CheckBox cbxAcuerdo;
         private System.Windows.Forms.ComboBox cbxTipoDocumento;
     }
 }

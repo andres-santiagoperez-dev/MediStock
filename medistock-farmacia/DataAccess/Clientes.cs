@@ -28,13 +28,21 @@ namespace medistock_farmacia.DataAccess
                 return dt;
             }
         }
-        public static bool agregarCliente()
+        public static bool agregarCliente(string tipoDocumento,string numeroDocumento,string nombreCompleto,string telefono,string email)
         {
             try
             {
                 SqlConnection cnn = Conexion.obtenerConexion();
-
-
+                string sql = "insert into clientes (tipoDocumento,numeroDocumento,nombreCompleto,telefono,email,estado) values(@tipoDocumento,@numeroDocumento,@nombreCompleto,@telefono,@email,1);";
+                SqlCommand cmd = new SqlCommand(sql,cnn);
+                cmd.Parameters.AddWithValue("@tipoDocumento",tipoDocumento);
+                cmd.Parameters.AddWithValue("@numeroDocumento", numeroDocumento);
+                cmd.Parameters.AddWithValue("@nombreCompleto", nombreCompleto);
+                cmd.Parameters.AddWithValue("@telefono", telefono);
+                cmd.Parameters.AddWithValue("@email", email);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
                 MessageBox.Show("Cliente Agregado con exito","Felicidades");
                 return true;
             }

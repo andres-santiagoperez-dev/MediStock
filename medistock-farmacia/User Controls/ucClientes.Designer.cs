@@ -31,10 +31,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnEliminarProducto = new System.Windows.Forms.Button();
             this.btnEditarProducto = new System.Windows.Forms.Button();
-            this.btnNuevoProducto = new System.Windows.Forms.Button();
+            this.btnNuevoCliente = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvInventario = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
+            this.dgvClientes = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -62,15 +62,15 @@
             this.btnEditarProducto.Text = "Editar";
             this.btnEditarProducto.UseVisualStyleBackColor = true;
             // 
-            // btnNuevoProducto
+            // btnNuevoCliente
             // 
-            this.btnNuevoProducto.Location = new System.Drawing.Point(341, 24);
-            this.btnNuevoProducto.Name = "btnNuevoProducto";
-            this.btnNuevoProducto.Size = new System.Drawing.Size(110, 23);
-            this.btnNuevoProducto.TabIndex = 20;
-            this.btnNuevoProducto.Text = "Nuevo Cliente";
-            this.btnNuevoProducto.UseVisualStyleBackColor = true;
-            this.btnNuevoProducto.Click += new System.EventHandler(this.btnNuevoProducto_Click);
+            this.btnNuevoCliente.Location = new System.Drawing.Point(341, 24);
+            this.btnNuevoCliente.Name = "btnNuevoCliente";
+            this.btnNuevoCliente.Size = new System.Drawing.Size(110, 23);
+            this.btnNuevoCliente.TabIndex = 20;
+            this.btnNuevoCliente.Text = "Nuevo Cliente";
+            this.btnNuevoCliente.UseVisualStyleBackColor = true;
+            this.btnNuevoCliente.Click += new System.EventHandler(this.btnNuevoCliente_Click);
             // 
             // label1
             // 
@@ -83,14 +83,14 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Listado de Clientes";
             // 
-            // dgvInventario
+            // dgvClientes
             // 
-            this.dgvInventario.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInventario.Location = new System.Drawing.Point(21, 62);
-            this.dgvInventario.Name = "dgvInventario";
-            this.dgvInventario.Size = new System.Drawing.Size(666, 210);
-            this.dgvInventario.TabIndex = 18;
+            this.dgvClientes.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClientes.Location = new System.Drawing.Point(21, 62);
+            this.dgvClientes.Name = "dgvClientes";
+            this.dgvClientes.Size = new System.Drawing.Size(666, 210);
+            this.dgvClientes.TabIndex = 18;
             // 
             // ucClientes
             // 
@@ -99,12 +99,13 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnEliminarProducto);
             this.Controls.Add(this.btnEditarProducto);
-            this.Controls.Add(this.btnNuevoProducto);
+            this.Controls.Add(this.btnNuevoCliente);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvInventario);
+            this.Controls.Add(this.dgvClientes);
             this.Name = "ucClientes";
             this.Size = new System.Drawing.Size(705, 297);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).EndInit();
+            this.Load += new System.EventHandler(this.ucClientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,8 +116,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnEliminarProducto;
         private System.Windows.Forms.Button btnEditarProducto;
-        private System.Windows.Forms.Button btnNuevoProducto;
+        private System.Windows.Forms.Button btnNuevoCliente;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dgvInventario;
+        private System.Windows.Forms.DataGridView dgvClientes;
     }
 }
