@@ -61,6 +61,7 @@
             this.btnEditarProducto.TabIndex = 15;
             this.btnEditarProducto.Text = "Editar";
             this.btnEditarProducto.UseVisualStyleBackColor = true;
+            this.btnEditarProducto.Click += new System.EventHandler(this.btnEditarProducto_Click);
             // 
             // btnNuevoProducto
             // 
@@ -91,6 +92,7 @@
             this.dgvProveedores.Name = "dgvProveedores";
             this.dgvProveedores.Size = new System.Drawing.Size(666, 210);
             this.dgvProveedores.TabIndex = 12;
+            this.dgvProveedores.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProveedores_CellEndEdit);
             // 
             // ucProveedores
             // 

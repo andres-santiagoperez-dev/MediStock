@@ -61,6 +61,7 @@
             this.btnEditarProducto.TabIndex = 9;
             this.btnEditarProducto.Text = "Editar";
             this.btnEditarProducto.UseVisualStyleBackColor = true;
+            this.btnEditarProducto.Click += new System.EventHandler(this.btnEditarProducto_Click);
             // 
             // btnNuevoProducto
             // 
@@ -85,12 +86,16 @@
             // 
             // dgvInventario
             // 
+            this.dgvInventario.AllowUserToAddRows = false;
+            this.dgvInventario.AllowUserToDeleteRows = false;
             this.dgvInventario.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventario.Location = new System.Drawing.Point(22, 63);
             this.dgvInventario.Name = "dgvInventario";
+            this.dgvInventario.ReadOnly = true;
             this.dgvInventario.Size = new System.Drawing.Size(666, 210);
             this.dgvInventario.TabIndex = 6;
+            this.dgvInventario.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventario_CellEndEdit);
             // 
             // ucInventario
             // 

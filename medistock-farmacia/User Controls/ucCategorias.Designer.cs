@@ -61,6 +61,7 @@
             this.btnEditarProducto.TabIndex = 16;
             this.btnEditarProducto.Text = "Editar";
             this.btnEditarProducto.UseVisualStyleBackColor = true;
+            this.btnEditarProducto.Click += new System.EventHandler(this.btnEditarProducto_Click);
             // 
             // btnNuevaCategoria
             // 
@@ -85,12 +86,16 @@
             // 
             // dgvCategorias
             // 
+            this.dgvCategorias.AllowUserToAddRows = false;
+            this.dgvCategorias.AllowUserToDeleteRows = false;
             this.dgvCategorias.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvCategorias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCategorias.Location = new System.Drawing.Point(23, 62);
             this.dgvCategorias.Name = "dgvCategorias";
+            this.dgvCategorias.ReadOnly = true;
             this.dgvCategorias.Size = new System.Drawing.Size(666, 210);
             this.dgvCategorias.TabIndex = 13;
+            this.dgvCategorias.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCategorias_CellEndEdit);
             // 
             // ucCategorias
             // 

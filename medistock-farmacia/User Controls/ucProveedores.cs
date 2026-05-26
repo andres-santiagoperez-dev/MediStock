@@ -37,5 +37,24 @@ namespace medistock_farmacia
             };
             frm.ShowDialog();
         }
+
+        private void btnEditarProducto_Click(object sender, EventArgs e)
+        {
+            dgvProveedores.ReadOnly = false;
+            dgvProveedores.Columns["id"].ReadOnly = true;
+        }
+
+        private void dgvProveedores_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            int id = Convert.ToInt32(dgvProveedores.CurrentRow.Cells["id"].Value);
+            string nombreEmpresa = Convert.ToString(dgvProveedores.CurrentRow.Cells["nombreEmpresa"].Value);
+            string nombreContacto = Convert.ToString(dgvProveedores.CurrentRow.Cells["nombreContacto"].Value);
+            string telefono = Convert.ToString(dgvProveedores.CurrentRow.Cells["telefono"].Value);
+            string email = Convert.ToString(dgvProveedores.CurrentRow.Cells["email"].Value);
+            string direccion = Convert.ToString(dgvProveedores.CurrentRow.Cells["direccion"].Value);
+            int estado = Convert.ToInt32(dgvProveedores.CurrentRow.Cells["estado"].Value);
+            Proveedores.editarProveedor(id, nombreEmpresa, nombreContacto, telefono, email, direccion, estado);
+            dgvProveedores.ReadOnly = true;
+        }
     }
 }

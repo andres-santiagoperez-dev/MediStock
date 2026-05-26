@@ -54,5 +54,31 @@ namespace medistock_farmacia.DataAccess
             }
             
         }
+        public static bool editarProveedor(int id,string nombreEmpresa, string nombreContacto,string telefono,string email,string direccion,int estado)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.obtenerConexion();
+                string sql = "update proveedores set nombreEmpresa = @nombreEmpresa,nombreContacto=@nombreContacto,telefono=@telefono,email=@email,direccion=@direccion,estado=@estado where id =@id";
+                SqlCommand cmd = new SqlCommand(sql, cnn);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@nombreEmpresa", nombreEmpresa);
+                cmd.Parameters.AddWithValue("@nombreContacto", nombreContacto);
+                cmd.Parameters.AddWithValue("@telefono", telefono);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@direccion", direccion);
+                cmd.Parameters.AddWithValue("@estado", estado);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
+                MessageBox.Show("Proveedor editado con exito", "FELICIDADES");
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "ERROR");
+                return false;
+            }
+        }
     }
 }

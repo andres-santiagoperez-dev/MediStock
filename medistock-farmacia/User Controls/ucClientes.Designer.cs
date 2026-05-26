@@ -61,6 +61,7 @@
             this.btnEditarProducto.TabIndex = 21;
             this.btnEditarProducto.Text = "Editar";
             this.btnEditarProducto.UseVisualStyleBackColor = true;
+            this.btnEditarProducto.Click += new System.EventHandler(this.btnEditarProducto_Click);
             // 
             // btnNuevoCliente
             // 
@@ -85,12 +86,16 @@
             // 
             // dgvClientes
             // 
+            this.dgvClientes.AllowUserToAddRows = false;
+            this.dgvClientes.AllowUserToDeleteRows = false;
             this.dgvClientes.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClientes.Location = new System.Drawing.Point(21, 62);
             this.dgvClientes.Name = "dgvClientes";
+            this.dgvClientes.ReadOnly = true;
             this.dgvClientes.Size = new System.Drawing.Size(666, 210);
             this.dgvClientes.TabIndex = 18;
+            this.dgvClientes.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellEndEdit);
             // 
             // ucClientes
             // 

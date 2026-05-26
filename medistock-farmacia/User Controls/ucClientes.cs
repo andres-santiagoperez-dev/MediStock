@@ -47,5 +47,36 @@ namespace medistock_farmacia
             dt = Clientes.obtenerClientes();
             dgvClientes.DataSource = dt;
         }
+
+        private void dgvClientes_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            int id = Convert.ToInt32(dgvClientes.CurrentRow.Cells["id"].Value);
+            string tipoDocumento = Convert.ToString(dgvClientes.CurrentRow.Cells["tipoDocumento"].Value);
+            string numeroDocumento = Convert.ToString(dgvClientes.CurrentRow.Cells["numeroDocumento"].Value);
+            string nombreCompleto = Convert.ToString(dgvClientes.CurrentRow.Cells["nombreCompleto"].Value);
+            string telefono = Convert.ToString(dgvClientes.CurrentRow.Cells["telefono"].Value);
+            string email = Convert.ToString(dgvClientes.CurrentRow.Cells["email"].Value);
+            int estado = Convert.ToInt32(dgvClientes.CurrentRow.Cells["estado"].Value);
+            if(tipoDocumento =="TI" || tipoDocumento=="CC")
+            {
+                DialogResult resultado = MessageBox.Show("Desea editar la casilla seleccionada", "Cuidado", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (resultado == DialogResult.Yes)
+                {
+                    Clientes.editarCliente(id, tipoDocumento, numeroDocumento, nombreCompleto, telefono, email, estado);
+                }
+            }
+            else
+            {
+                dgvClientes.CancelEdit();
+                MessageBox.Show("VERIFICA LOS DATOS", "ERROR");
+            }
+            dgvClientes.ReadOnly = true;
+        }
+
+        private void btnEditarProducto_Click(object sender, EventArgs e)
+        {
+            dgvClientes.ReadOnly = false;
+            dgvClientes.Columns["id"].ReadOnly = true;
+        }
     }
 }

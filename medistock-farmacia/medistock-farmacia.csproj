@@ -52,6 +52,7 @@
     <Compile Include="DataAccess\InicioSesion.cs" />
     <Compile Include="DataAccess\Inventario.cs" />
     <Compile Include="DataAccess\Proveedores.cs" />
+    <Compile Include="DataAccess\Usuarios.cs" />
     <Compile Include="Forms\Auth\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>

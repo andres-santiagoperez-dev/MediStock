@@ -49,5 +49,28 @@ namespace medistock_farmacia.DataAccess
                 return false;
             }
         }
+        public static bool editarCategoria(int id, string nombre, string descripcion, int estado)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.obtenerConexion();
+                string sql = "update categorias set nombre=@nombre,descripcion=@descripcion,estado=@estado where id=@id;";
+                SqlCommand cmd = new SqlCommand(sql, cnn);
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@descripcion", descripcion);
+                cmd.Parameters.AddWithValue("@estado", estado);
+                cmd.Parameters.AddWithValue("@id", id);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
+                MessageBox.Show("Categoria editada con exito");
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message,"ERROR");
+                return false;
+            }
+        }
     }
 }

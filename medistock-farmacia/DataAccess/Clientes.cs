@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,6 +50,32 @@ namespace medistock_farmacia.DataAccess
             catch (Exception e)
             {
                 MessageBox.Show("ERROR",e.Message);
+                return false;
+            }
+        }
+        public static bool editarCliente(int id, string tipoDocumento,string numeroDocumento,string nombreCompleto,string telefono,string email,int estado)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.obtenerConexion();
+                string sql = "update clientes set tipoDocumento=@tipoDocumento,numeroDocumento=@numeroDocumento,nombreCompleto=@nombreCompleto,telefono=@telefono,email=@email,estado=@estado where id=@id;";
+                SqlCommand cmd = new SqlCommand(sql, cnn);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@tipoDocumento", tipoDocumento);
+                cmd.Parameters.AddWithValue("@numeroDocumento", numeroDocumento);
+                cmd.Parameters.AddWithValue("@nombreCompleto", nombreCompleto);
+                cmd.Parameters.AddWithValue("@telefono", telefono);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@estado", estado);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+                cnn.Close();
+                MessageBox.Show("Cliente editado con exito", "Felicidades");
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "ERROR");
                 return false;
             }
         }

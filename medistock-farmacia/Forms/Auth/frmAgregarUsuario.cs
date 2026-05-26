@@ -1,4 +1,5 @@
-﻿using System;
+﻿using medistock_farmacia.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,16 +20,18 @@ namespace medistock_farmacia.Forms.Dashboard
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-            if(txtEmail.Text != "" && txtNombreCompleto.Text != "" && txtNumeroDocumento.Text != "" && txtTelefono.Text != "")
+            if(txtIdRol.Text != "" && txtNombreCompleto.Text != "" && txtNombreUsuario.Text != "" && txtContrasena.Text != "")
             {
-                this.Hide();
+                Usuarios.agregarUsuario(txtNombreUsuario.Text,txtContrasena.Text,txtNombreCompleto.Text,Convert.ToInt32(txtIdRol.Text));
                 frmLogin form = new frmLogin();
                 form.Show();
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Faltan campos por llenar", "CUIDADO");
             }
         }
+
     }
 }
